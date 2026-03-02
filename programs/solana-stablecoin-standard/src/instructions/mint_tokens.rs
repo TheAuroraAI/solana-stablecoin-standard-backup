@@ -23,8 +23,9 @@ pub struct MintTokens<'info> {
     )]
     pub stablecoin_config: Account<'info, StablecoinConfig>,
 
-    /// Roles config PDA
+    /// Roles config PDA (mut required for minted_this_epoch quota tracking)
     #[account(
+        mut,
         seeds = [ROLES_CONFIG_SEED, mint.key().as_ref()],
         bump = roles_config.bump,
     )]

@@ -1,5 +1,3 @@
-use anchor_lang::prelude::*;
-
 /// Seeds for PDA derivation
 pub const STABLECOIN_CONFIG_SEED: &[u8] = b"stablecoin-config";
 pub const ROLES_CONFIG_SEED: &[u8] = b"roles-config";

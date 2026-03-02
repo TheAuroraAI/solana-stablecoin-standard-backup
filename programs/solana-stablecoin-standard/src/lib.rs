@@ -9,7 +9,7 @@ pub use constants::*;
 pub use instructions::*;
 pub use state::*;
 
-declare_id!("Aaw7RSm8fXXAfvDy9wS1FimFEmnHkzYtDmZCRgZg9pVm");
+declare_id!("GMqW1Zi5DExSZT6CJEYHjhjmP6hUmu2tv9vrYaCgTPrE");
 
 #[program]
 pub mod solana_stablecoin_standard {
